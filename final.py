@@ -11,7 +11,7 @@ perfil = st.text_area("📝 Perfil do Paciente", height=300, placeholder="Ex: Mu
 def gerar_resposta(perfil):
     perfil = perfil.lower()
 
-    if any(p in perfil for p in ["67 anos", "idosa", "idoso", "osteoporose", "dor", "sozinha", "moradora da ur 03"]):
+    if any(p in perfil for p in ["67 anos", "idosa", "idoso", "osteoporose", "dor", "sozinha"]):
         return """
 ### 🔍 Recomendações Personalizadas:
 1. **Grupo de convivência na USF Ur 03 ou CRAS Ibura** – combate solidão e estimula interação social.
@@ -21,7 +21,7 @@ def gerar_resposta(perfil):
 *→ Protótipo: simulação baseada em palavras-chave. No futuro, será IA real com linguagem natural.*
 """
 
-    elif any(p in perfil for p in ["depressão", "ansioso", "triste", "isolado", "psiquiátrico"]):
+    elif any(p in perfil for p in ["depressão", "ansioso", "triste", "isolado", "psiquiátrico" ]):
         return """
 ### 🔍 Recomendações Personalizadas:
 1. **Mindfulness guiado com app gratuito (ex: Lojong)** – melhora ansiedade e foco.
@@ -31,7 +31,7 @@ def gerar_resposta(perfil):
 *→ Protótipo: simulação baseada em palavras-chave. No futuro, será IA real com linguagem natural.*
 """
 
-    elif any(p in perfil for p in ["jovem", "20 anos", "universitário", "estudante"]):
+    elif any(p in perfil for p in ["jovem", "20 anos", "universitário", "estudante", "moradora da ur 03"]):
         return """
 ### 🔍 Recomendações Personalizadas:
 1. **Atividade física regular (musculação ou esportes coletivos)** – aumenta energia e autoestima. Há também atividades físicas possíveis de serem realizadas no COMPAZ Paulo Freire, localizado no bairro do ibura, bem como Academia da cidade na redondeza.
