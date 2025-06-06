@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="IA Intervenção Não-Farmacológica", layout="centered")
+st.set_page_config(page_title="Intervenções Não-Farmacológicas Personalizada", layout="centered")
 
-st.title("🤖 IA para Intervenções Não-Farmacológicas Personalizadas")
+st.title("VIVA MELHOR,A Inteligência Artificial para Prescrição de Intervenções Não-Farmacológicas Personalizadas com Base no Contexto de Vida")
 
 st.markdown("Preencha abaixo com o **perfil de vida do paciente** (idade, doenças, contexto social, hábitos, etc):")
 
@@ -47,6 +47,8 @@ def gerar_resposta(perfil):
 1. **Exercício leve adaptado à realidade do paciente** – caminhada, dança, ou alongamento funcional.
 2. **Grupos comunitários locais ou atividades manuais** – reforçam autonomia e bem-estar.
 3. **Apps de acompanhamento de humor, rotina ou sono** – podem ajudar a construir hábitos saudáveis.
+
+*Viva Melhor: sua rotina inspira nossa solução*
 
 *→ Protótipo: simulação baseada em palavras-chave. No futuro, será IA real com linguagem natural.*
 """
