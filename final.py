@@ -1,12 +1,7 @@
 import streamlit as st
 
-import streamlit as st
-
-st.image("viva_melhor_logo.png", width=150)
-st.title("Viva Melhor")
-
 st.set_page_config(page_title="Intervenções Não-Farmacológicas Personalizada", layout="centered")
-
+st.title("VIVA MELHOR")
 
 st.markdown("Preencha abaixo com o **perfil de vida do paciente** (idade, doenças, contexto social, hábitos, etc):")
 
