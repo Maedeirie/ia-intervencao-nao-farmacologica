@@ -1,12 +1,23 @@
 import streamlit as st
 
 import streamlit as st
-st.image("viva_melhor_logo.png", width=150)st.title("Viva Melhor")
+
+st.image("viva_melhor_logo.png", width=150)
+st.title("Viva Melhor")
+
 st.set_page_config(page_title="Intervenções Não-Farmacológicas Personalizada", layout="centered")
+
 import streamlit as st
 st.title("VIVA MELHOR")
-import streamlit as stfrom PIL import Imagefrom streamlit.columns import columns
-col1, col2 = st.columns([1, 4])with col1:    st.image("viva_melhor_logo.png", width=80)with col2:    st.title("Viva Melhor")
+import streamlit as st
+from PIL import Image
+from streamlit.columns import columns
+col1, col2 = st.columns([1, 4])
+with col1:  
+  st.image("viva_melhor_logo.png", width=80)
+with col2: 
+  st.title("Viva Melhor")
+
 st.markdown("Preencha abaixo com o **perfil de vida do paciente** (idade, doenças, contexto social, hábitos, etc):")
 
 perfil = st.text_area("📝 Perfil do Paciente", height=300, placeholder="Ex: Mulher, 67 anos, hipertensa, mora sozinha, aposentada...")
