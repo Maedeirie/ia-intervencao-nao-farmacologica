@@ -9,6 +9,7 @@ st.set_page_config(page_title="Intervenções Não-Farmacológicas Personalizada
 
 import streamlit as st
 st.title("VIVA MELHOR")
+
 import streamlit as st
 from PIL import Image
 from streamlit.columns import columns
