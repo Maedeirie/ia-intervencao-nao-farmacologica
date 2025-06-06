@@ -73,4 +73,3 @@ if st.button("💡 Gerar Recomendações"):
         st.warning("Por favor, insira um perfil do paciente.")
     else:
         st.markdown(gerar_resposta(perfil))
-
