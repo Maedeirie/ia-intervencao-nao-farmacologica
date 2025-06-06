@@ -1,7 +1,11 @@
 import streamlit as st
 
+import streamlit as st
+st.image("viva_melhor_logo.png", width=150)st.title("Viva Melhor")
 st.set_page_config(page_title="Intervenções Não-Farmacológicas Personalizada", layout="centered")
-
+import streamlit as st
+st.image("viva_melhor_logo.png", width=150)st.title("Viva Melhor")[6/6, 7:50 AM] Mailson Indivíduo Com Distúrbios De Sono: import streamlit as stfrom PIL import Imagefrom streamlit.columns import columns
+col1, col2 = st.columns([1, 4])with col1:    st.image("viva_melhor_logo.png", width=80)with col2:    st.title("Viva Melhor")
 st.title("VIVA MELHOR,A Inteligência Artificial para Prescrição de Intervenções Não-Farmacológicas Personalizadas com Base no Contexto de Vida")
 
 st.markdown("Preencha abaixo com o **perfil de vida do paciente** (idade, doenças, contexto social, hábitos, etc):")
